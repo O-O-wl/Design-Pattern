@@ -4,6 +4,10 @@ public class AttackStrategyWithGun implements AttackStrategy{
 
     @Override
     public void attack() {
+        shoot();
+    }
+    private void shoot(){
         System.out.println("총을 쏩니다.");
     }
 }
+

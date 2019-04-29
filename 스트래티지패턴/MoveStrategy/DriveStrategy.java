@@ -4,6 +4,10 @@ public class DriveStrategy implements MoveStrategy {
 
     @Override
     public void move() {
+        drive();
+    }
+    private void drive(){
         System.out.println("차를 타고 이동합니다.");
     }
+
 }

@@ -4,6 +4,9 @@ public class AttackStrategyWithKnife implements AttackStrategy {
 
     @Override
     public void attack() {
+       swing();
+    }
+    private void swing(){
         System.out.println("칼로 공격합니다.");
     }
 }

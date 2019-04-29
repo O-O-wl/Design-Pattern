@@ -8,6 +8,7 @@ public abstract class Character {
     AttackStrategy attackStrategy;
     MoveStrategy moveStrategy;
 
+
     public Character(AttackStrategy attackStrategy, MoveStrategy moveStrategy) {
         this.attackStrategy = attackStrategy;
         this.moveStrategy = moveStrategy;
