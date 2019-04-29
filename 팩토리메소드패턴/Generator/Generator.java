@@ -10,6 +10,7 @@ public class Generator {
     public void setFactory(GameObjectFactory factory) {
         this.factory = factory;
     }
+
     public GameObject generate(String type){
         GameObject gameObject = factory.createGameObject(type);
         gameObject.hello();
