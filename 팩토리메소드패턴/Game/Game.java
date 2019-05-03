@@ -1,8 +1,8 @@
 package 디자인패턴.팩토리메소드패턴.Game;
 
-import 디자인패턴.팩토리메소드패턴.Factory.MonsterFactory;
-import 디자인패턴.팩토리메소드패턴.Factory.PlayerFactory;
-import 디자인패턴.팩토리메소드패턴.Generator.Generator;
+        import 디자인패턴.팩토리메소드패턴.Factory.MonsterFactory;
+        import 디자인패턴.팩토리메소드패턴.Factory.PlayerFactory;
+        import 디자인패턴.팩토리메소드패턴.Generator.Generator;
 
 public class Game {
     public static void main(String [] arg){
