@@ -19,8 +19,10 @@ public class Main {
                 case 1:
                     clock.display();
                     clock2.display();
+                    break;
                 case 2:
                     setTime(time);
+                    break;
             }
         }
     }
